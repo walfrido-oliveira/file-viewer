@@ -1,0 +1,120 @@
+    .formDelete {
+    	float: right;
+    	margin-left: 10px;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: #f5f5f5;
+        font-size: 11px;
+        line-height: 1.26666667;
+        color: #6a737c;
+    }
+
+    .tmbItemSel, .tmbItemSel .thumbFolder .icon, .tmbItemSel .thumbFolder .filename {
+        color: #1967D2;
+    }
+
+    .tmbItemSel {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12), 0 3px 5px -1px rgba(0,0,0,0.2);
+    }
+
+    .tmbItem {
+        float: left;
+        margin: 10px;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+        transition: box-shadow 200ms cubic-bezier(0.4,0.0,0.2,1);
+        border-radius: 5px;
+    }
+
+    .x-unselectable, .x-unselectable * {
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: -moz-none;
+        -webkit-user-select: none;
+        cursor: default;
+    }
+
+    .tmbItem .tmbInner, .gridTmb {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #fff;
+        transition: background 0.3s ease;
+    }
+
+    .tmbItem .tmbInner {
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+
+    .tmbInner {
+        height: 110px;
+        width: 160px;
+    }
+    
+    .tmbItem .title {
+        overflow: hidden;
+        text-align: center;
+        padding: 6px 0;
+        white-space: nowrap;
+        background-color: white;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 12px;
+    }
+
+    .tmbItemSel .title, .tmbItemSel .thumbFolder {
+        background-color: #E8F0FE;
+    }
+
+    .tmbItem .title .name {
+        display: inline-block;
+        vertical-align: top;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 19px;
+    }
+
+    .ext-list {
+        margin-left: 5px;
+        color: silver;
+    }
+
+    .iconsHolder {
+        margin-left: 4px;
+        display: inline-block;
+        color: silver;
+    }
+
+    .iconsHolder:hover i {
+        cursor: pointer;
+    }
+
+    #FR-Grid-Panel .x-grid3-row-last {
+        margin-bottom: 40px;
+    }
+
+    .login-form {
+        border-radius: 1px;
+        box-shadow: 0 8px 10px 1px rgba(0,0,0,0.14), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+        background-color: white;
+        padding: 20px;
+        margin-top: 10%;
+    }
+
+    .navbar-expand-lg {
+        background-color: #fff;
+        border-color: #fff;
+        border-radius: 1px;
+        box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0), 0 3px 14px 2px rgba(0,0,0,0.12), 0 5px 5px -3px rgba(0,0,0,0.2);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+}
