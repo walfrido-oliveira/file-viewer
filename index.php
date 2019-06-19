@@ -19,4 +19,5 @@ include 'functions.php';
 
 <?php
 	include 'footer.php';
+// teste
 ?>
